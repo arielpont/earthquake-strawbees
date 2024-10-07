@@ -10,6 +10,6 @@ sb.setServoPosition(sb.servo(SBServo.ServoA), 50)
 speed = 1
 basic.showNumber(speed)
 basic.forever(function () {
-    sb.transitionServoPosition(sb.servo(SBServo.ServoA), 40, 1 / speed, sb.easing(SBEasing.Linear))
-    sb.transitionServoPosition(sb.servo(SBServo.ServoA), 70, 1 / speed, sb.easing(SBEasing.Linear))
+    sb.transitionServoPosition(sb.servo(SBServo.ServoA), 50, 1 / speed, sb.easing(SBEasing.Linear))
+    sb.transitionServoPosition(sb.servo(SBServo.ServoA), 100, 1 / speed, sb.easing(SBEasing.Linear))
 })
